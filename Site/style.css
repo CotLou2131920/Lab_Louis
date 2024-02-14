@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #222831;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.menu {
+  background-color: #00ADB5;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+.menu div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.blog {
+  width: 26%;
+}
+
+nav a {
+  width: auto;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em;
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+nav img {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding: 2em;
+}
+
+.media {
+  padding: 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", "serif";
+}
+
+p {
+  font-family: "Open Sans", "sans-serif";
+}
+
+@media screen and (max-width: 768px) {
+  nav div {
+    flex-direction: column;
+  }
+  .blog, .media {
+    width: 100%;
+  }
+  .logo {
+    width: 60%;
+    height: 100%;
+  }
+  .recherche {
+    width: 100%;
+  }
+  .trier {
+    width: 65%;
+    margin-top: 20px;
+  }
+  .com {
+    width: 10%;
+    height: 10%;
+    align-self: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
