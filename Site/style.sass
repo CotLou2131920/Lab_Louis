@@ -1,6 +1,12 @@
-// Définition des polices d'écriture
-$font-family-title: 'Lora', 'serif'
-$font-family-paragraph: 'Open Sans', 'sans-serif'
+@font-face 
+  font-family: "Open Sans"
+  src: url("Font\Open_Sans\static\OpenSans_Condensed-Bold.ttf")
+
+
+@font-face 
+  font-family: "Lora"
+  src: url("Font\Lora\static\Lora-Bold.ttf")
+
 
 // Styles pour le body et les autres éléments
 body
@@ -55,11 +61,11 @@ section
 
 // Appliquer la police Lora à tous les titres
 h1, h2, h3, h4, h5, h6
-  font-family: $font-family-title
+  font-family: Lora
 
 // Appliquer la police Open Sans à tous les paragraphes
 p
-  font-family: $font-family-paragraph
+  font-family: Open Sans
 
 @media screen and (max-width: 768px)
   nav div
